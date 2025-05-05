@@ -1,0 +1,11 @@
+name: megaclustfold
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10.17
+  - pip=25.0.1
+  - mmseqs2=17.b804f
+  - pip:
+      - biopython==1.82

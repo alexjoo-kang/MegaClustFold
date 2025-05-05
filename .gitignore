@@ -1,0 +1,15 @@
+# macOS system files
+.DS_Store
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor-specific files
+.vscode/
+*.swp
+
+# Conda environment backup
+*.env
+*.yml.lock
