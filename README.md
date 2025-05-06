@@ -10,6 +10,10 @@ MegaClustFold is a lightweight and modular pipeline that clusters protein sequen
 
 This project is inspired by outstanding tools such as **MMseqs2**, **ColabFold**, and **Foldseek** developed by the [Steinegger Lab](https://github.com/steineggerlab). Synthetic sequences are used to ensure reproducibility and open sharing.
 
+Also, this project was developed with extensive assistance from OpenAI's ChatGPT, which provided significant guidance in both designing the pipeline and generating the underlying Python code. 
+
+This repository reflects a learning experience, and I plan to study and improve my understanding of the components involved.
+
 ---
 
 ## 📁 Project Structure
@@ -37,6 +41,25 @@ MegaClustFold/
 └── README.md
 
 ````
+
+---
+
+## 📥 How to Download This Repository
+You can download this project in two ways:
+
+### ✅ Option 1: Download as ZIP
+1. Click the green `Code` button at the top of the GitHub page
+2. Select `Download ZIP`
+3. Extract the ZIP
+4. `cd /path/to/MegaClustFold-main`
+
+> ✅ No git command required
+
+### 🧪 Option 2: Clone with Git
+```bash
+git clone https://github.com/alexjoo-kang/MegaClustFold.git
+cd MegaClustFold
+```
 
 ---
 
