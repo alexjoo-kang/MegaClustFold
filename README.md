@@ -92,7 +92,7 @@ MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNEAELKVLQKAFSKLGAKEMNEE
 MSEQNNTEMTFQIQRIYTKDISFEYKKMVDGVEKMVVKAFSKLGAEMDKLDSIEQKKLNQTSKLTMELESTFKVVVYKPWTKLLTP
 ```
 
-Use one sequence at a time in the ColabFold notebook (`Run All`) and download the resulting files, which includes `.pdb` files.
+Use one sequence at a time in the ColabFold notebook and download the resulting files, which includes `.pdb` files.
 
 ---
 
