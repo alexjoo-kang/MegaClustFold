@@ -102,23 +102,6 @@ Once you have `.pdb` structure files from ColabFold, you can use [Foldseek](http
 
 ---
 
-## 📦 Conda Environment (environment.yml)
-
-```yaml
-name: megaclustfold
-channels:
-  - conda-forge
-  - bioconda
-dependencies:
-  - python=3.10.17
-  - pip=25.0.1
-  - mmseqs2=17.b804f
-  - pip:
-      - biopython==1.82
-```
-
----
-
 ## 🔖 License
 
 MIT License
