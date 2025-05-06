@@ -21,7 +21,7 @@ MegaClustFold/
 │   ├── autism_isoforms.fasta                        # Initial synthetic amino acid sequences
 │   ├── cluster_members.tsv                          # MMseqs2 clustering output
 │   ├── clustered_representatives.fasta              # Representative sequences from Linclust
-│   ├── clustered_representatives\_cleaned.fasta      # Strictly cleaned version
+│   ├── clustered_representatives_cleaned.fasta      # Strictly cleaned version
 │   └── clusters/
 │       ├── cluster_0.fasta
 │       └── cluster_1.fasta
@@ -30,7 +30,7 @@ MegaClustFold/
 ├── scripts/
 │   ├── run_linclust.py                              # Runs MMseqs2 Linclust clustering
 │   ├── export_clusters.py                           # Exports sequences per cluster
-│   └── export_aac\_embeddings.py                     # Computes AAC embeddings
+│   └── export_aac_embeddings.py                     # Computes AAC embeddings
 ├── strict_clean_clustered_fasta.py                  # Removes malformed FASTA headers
 ├── environment.yml                                  # Conda environment specification
 ├── .gitignore
