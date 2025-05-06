@@ -8,7 +8,7 @@ MegaClustFold is a lightweight and modular pipeline that clusters protein sequen
 
 ## 🙏 Acknowledgments
 
-This project is inspired by outstanding tools such as **MMseqs2**, **ColabFold**, and **Foldseek** developed by the [Steinegger Lab](https://github.com/steineggerlab). Synthetic sequences are used to ensure reproducibility and open sharing.
+This project is inspired by outstanding tools such as **MMseqs2** developed by the [soedinglab](https://github.com/soedinglab/MMseqs2), **ColabFold** developed by [solab](https://github.com/sokrypton/ColabFold), and **Foldseek** developed by the [Steinegger Lab](https://github.com/steineggerlab). Synthetic sequences are used to ensure reproducibility and open sharing.
 
 Also, this project was developed with extensive assistance from OpenAI's ChatGPT, which provided significant guidance in both designing the pipeline and generating the underlying Python code. 
 
@@ -25,7 +25,7 @@ MegaClustFold/
 │   ├── autism_isoforms.fasta                        # Initial synthetic amino acid sequences
 │   ├── cluster_members.tsv                          # MMseqs2 clustering output
 │   ├── clustered_representatives.fasta              # Representative sequences from Linclust
-│   ├── clustered_representatives_cleaned.fasta      # Strictly cleaned version
+│   └── clustered_representatives_cleaned.fasta      # Strictly cleaned version
 ├── scripts/
 │   └── run_linclust.py                              # Runs MMseqs2 Linclust clustering
 ├── strict_clean_clustered_fasta.py                  # Removes malformed FASTA headers
