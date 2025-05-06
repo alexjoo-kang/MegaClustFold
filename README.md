@@ -8,7 +8,7 @@ MegaClustFold is a lightweight and modular pipeline that clusters protein sequen
 
 ## 🙏 Acknowledgments
 
-This project is inspired by outstanding tools such as **MMseqs2** developed by the [soedinglab](https://github.com/soedinglab/MMseqs2), **ColabFold** developed by [solab](https://github.com/sokrypton/ColabFold), and **Foldseek** developed by the [steinegger Lab](https://github.com/steineggerlab). Synthetic sequences are used to ensure reproducibility and open sharing.
+This project is inspired by outstanding tools such as **MMseqs2** developed by the [soedinglab](https://github.com/soedinglab/MMseqs2), **ColabFold** developed by [solab](https://github.com/sokrypton/ColabFold), and **Foldseek** developed by the [steinegger Lab](https://github.com/steineggerlab). Synthetic sequences are used to ensure reproducibility.
 
 Also, this project was developed with extensive assistance from OpenAI's ChatGPT, which provided significant guidance in both designing the pipeline and generating the underlying Python code. 
 
