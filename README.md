@@ -21,11 +21,12 @@ This repository reflects a learning experience, and I plan to study and improve 
 ```
 
 MegaClustFold/
-├── data/
-│   ├── autism_isoforms.fasta                        # Initial synthetic amino acid sequences
+├── retuls/
 │   ├── cluster_members.tsv                          # MMseqs2 clustering output
 │   ├── clustered_representatives.fasta              # Representative sequences from Linclust
 │   └── clustered_representatives_cleaned.fasta      # Strictly cleaned version
+├── data/
+│   └── autism_isoforms.fasta                        # Initial synthetic amino acid sequences
 ├── scripts/
 │   └── run_linclust.py                              # Runs MMseqs2 Linclust clustering
 ├── strict_clean_clustered_fasta.py                  # Removes malformed FASTA headers
@@ -73,11 +74,16 @@ conda activate megaclustfold
 python scripts/run_linclust.py data/autism_isoforms.fasta
 ```
 
+As a result, cluster_members.tsv and clustered_representatives.fasta will be created at the data/ directory.   
+
 #### (2) Clean FASTA headers
 
 ```bash
 python strict_clean_clustered_fasta.py
 ```
+
+As a result, clustered_representatives_cleaned.fasta will be created at the data/ directory. 
+
 ---
 
 ## 🔬 Optional: Structure Prediction with ColabFold
