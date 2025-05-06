@@ -1,6 +1,6 @@
 # 🧬 MegaClustFold 
 
-MegaClustFold is a lightweight and modular pipeline that clusters protein sequences based on amino acid composition (AAC) using **MMseqs2 Linclust**, and then exports cluster-wise sequence files and embeddings. This version is simplified for reproducibility and educational purposes, focusing on basic clustering and AAC extraction.
+MegaClustFold is a lightweight and modular pipeline that clusters protein sequences using **MMseqs2 Linclust**. This version is simplified for reproducibility and educational purposes, focusing on basic clustering.
 
 > All input data is **synthetic** and intended for demonstration and testing only.
 
@@ -26,15 +26,8 @@ MegaClustFold/
 │   ├── cluster_members.tsv                          # MMseqs2 clustering output
 │   ├── clustered_representatives.fasta              # Representative sequences from Linclust
 │   ├── clustered_representatives_cleaned.fasta      # Strictly cleaned version
-│   └── clusters/
-│       ├── cluster_0.fasta
-│       └── cluster_1.fasta
-├── results/
-│   └── aac_embeddings.csv                           # Amino Acid Composition embeddings
 ├── scripts/
-│   ├── run_linclust.py                              # Runs MMseqs2 Linclust clustering
-│   ├── export_clusters.py                           # Exports sequences per cluster
-│   └── export_aac_embeddings.py                     # Computes AAC embeddings
+│   └── run_linclust.py                              # Runs MMseqs2 Linclust clustering
 ├── strict_clean_clustered_fasta.py                  # Removes malformed FASTA headers
 ├── environment.yml                                  # Conda environment specification
 ├── .gitignore
@@ -85,19 +78,6 @@ python scripts/run_linclust.py data/autism_isoforms.fasta
 ```bash
 python strict_clean_clustered_fasta.py
 ```
-
-#### (3) Export cluster files
-
-```bash
-python scripts/export_clusters.py
-```
-
-#### (4) Compute AAC embeddings
-
-```bash
-python scripts/export_aac_embeddings.py
-```
-
 ---
 
 ## 🔬 Optional: Structure Prediction with ColabFold
