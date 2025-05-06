@@ -18,20 +18,20 @@ This project is inspired by outstanding tools such as **MMseqs2**, **ColabFold**
 
 MegaClustFold/
 ├── data/
-│   ├── autism\_isoforms.fasta                        # Initial synthetic amino acid sequences
-│   ├── cluster\_members.tsv                          # MMseqs2 clustering output
-│   ├── clustered\_representatives.fasta              # Representative sequences from Linclust
-│   ├── clustered\_representatives\_cleaned.fasta      # Strictly cleaned version
+│   ├── autism_isoforms.fasta                        # Initial synthetic amino acid sequences
+│   ├── cluster_members.tsv                          # MMseqs2 clustering output
+│   ├── clustered_representatives.fasta              # Representative sequences from Linclust
+│   ├── clustered_representatives\_cleaned.fasta      # Strictly cleaned version
 │   └── clusters/
-│       ├── cluster\_0.fasta
-│       └── cluster\_1.fasta
+│       ├── cluster_0.fasta
+│       └── cluster_1.fasta
 ├── results/
-│   └── aac\_embeddings.csv                           # Amino Acid Composition embeddings
+│   └── aac_embeddings.csv                           # Amino Acid Composition embeddings
 ├── scripts/
-│   ├── run\_linclust.py                              # Runs MMseqs2 Linclust clustering
-│   ├── export\_clusters.py                           # Exports sequences per cluster
-│   └── export\_aac\_embeddings.py                     # Computes AAC embeddings
-├── strict\_clean\_clustered\_fasta.py                  # Removes malformed FASTA headers
+│   ├── run_linclust.py                              # Runs MMseqs2 Linclust clustering
+│   ├── export_clusters.py                           # Exports sequences per cluster
+│   └── export_aac\_embeddings.py                     # Computes AAC embeddings
+├── strict_clean_clustered_fasta.py                  # Removes malformed FASTA headers
 ├── environment.yml                                  # Conda environment specification
 ├── .gitignore
 └── README.md
@@ -80,7 +80,6 @@ python scripts/export_aac_embeddings.py
 ## 🔬 Optional: Structure Prediction with ColabFold
 
 You can manually predict the 3D structures of clustered representative sequences using [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb).
-
 ### Example Input: `clustered_representatives_cleaned.fasta`
 
 ```
